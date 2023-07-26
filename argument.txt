@@ -1,0 +1,33 @@
+Train
+python main.py 
+--model deeplabv3plus_mobilenet --enable_vis --vis_port 8097 --gpu_id 0 --lr 0.01 --crop_size 512 --batch_size 4 --output_stride 16
+
+
+
+Test
+python main.py 
+--model deeplabv3plus_mobilenet --enable_vis --vis_port 8097 --gpu_id 0 --crop_val --lr 0.01 --crop_size 512 --batch_size 4 --output_stride 16 --ckpt checkpoints/best_deeplabv3plus_mobilenet_voc_os16.pth --test_only --save_val_results
+
+--model deeplabv3plus_resnet101 --enable_vis --vis_port 8097 --gpu_id 0 --crop_val --lr 0.01 --crop_size 512 --batch_size 4 --output_stride 16 --ckpt checkpoints/plus_resnet101_voc_os16_0-128_real.pth --test_only --save_val_results
+
+
+5. Prediction
+
+Single image:
+
+python predict.py --input datasets/data/cityscapes/leftImg8bit/train/bremen/bremen_000000_000019_leftImg8bit.png  --dataset cityscapes --model deeplabv3plus_mobilenet --ckpt checkpoints/best_deeplabv3plus_mobilenet_cityscapes_os16.pth --save_val_results_to test_results
+
+
+Image folder:
+python predict.py --input datasets/data/cityscapes/leftImg8bit/train/bremen  --dataset cityscapes --model deeplabv3plus_mobilenet --ckpt checkpoints/best_deeplabv3plus_mobilenet_cityscapes_os16.pth --save_val_results_to test_results
+
+--input
+test_target
+--dataset
+voc
+--model
+deeplabv3plus_resnet101
+--ckpt
+checkpoints/plus_resnet101_voc_os16_0-128_real.pth
+--save_val_results_to
+test_results

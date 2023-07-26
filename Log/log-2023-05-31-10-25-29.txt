@@ -1,0 +1,25 @@
+Setting up a new session...
+Without the incoming socket you cannot receive events from the server or register event handlers to your Visdom client.
+{'data_root': './datasets/data', 'dataset': 'voc', 'num_classes': 21, 'model': 'deeplabv3plus_resnet50', 'separable_conv': False, 'output_stride': 16, 'test_only': False, 'save_val_results': False, 'total_itrs': 30000.0, 'lr': 0.01, 'lr_policy': 'poly', 'step_size': 10000, 'crop_val': False, 'batch_size': 2, 'val_batch_size': 4, 'crop_size': 512, 'ckpt': None, 'continue_training': False, 'loss_type': 'cross_entropy', 'gpu_id': '0', 'weight_decay': 0.0001, 'random_seed': 1, 'print_interval': 10, 'val_interval': 100, 'download': False, 'year': '2012', 'enable_vis': True, 'vis_port': '8097', 'vis_env': 'main', 'vis_num_samples': 8}
+Device: cuda
+Dataset: voc, Train set: 28, Val set: 7
+Backend QtAgg is interactive backend. Turning interactive mode on.
+[!] Retrain
+Traceback (most recent call last):
+  File "E:\jupyter notebook\DeepLabV3Plus-Pytorch-master\main.py", line 409, in <module>
+    main()
+  File "E:\jupyter notebook\DeepLabV3Plus-Pytorch-master\main.py", line 342, in main
+    outputs = model(images)
+  File "C:\Users\91932\.conda\envs\torch\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\91932\.conda\envs\torch\lib\site-packages\torch\nn\parallel\data_parallel.py", line 166, in forward
+    return self.module(*inputs[0], **kwargs[0])
+  File "C:\Users\91932\.conda\envs\torch\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "E:\jupyter notebook\DeepLabV3Plus-Pytorch-master\network\utils.py", line 18, in forward
+    x = self.classifier(features)
+  File "C:\Users\91932\.conda\envs\torch\lib\site-packages\torch\nn\modules\module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "E:\jupyter notebook\DeepLabV3Plus-Pytorch-master\network\_deeplab.py", line 164, in forward
+    return classifier_output
+KeyboardInterrupt

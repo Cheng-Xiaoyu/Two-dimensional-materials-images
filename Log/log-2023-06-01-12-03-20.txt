@@ -1,0 +1,135 @@
+Setting up a new session...
+Exception in user code:
+------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\91932\.conda\envs\torch\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\91932\.conda\envs\torch\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "C:\Users\91932\.conda\envs\torch\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\91932\.conda\envs\torch\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\91932\.conda\envs\torch\lib\site-packages\urllib3\connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\91932\.conda\envs\torch\lib\site-packages\urllib3\connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "C:\Users\91932\.conda\envs\torch\lib\http\client.py", line 1285, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\91932\.conda\envs\torch\lib\http\client.py", line 1331, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\91932\.conda\envs\torch\lib\http\client.py", line 1280, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\91932\.conda\envs\torch\lib\http\client.py", line 1040, in _send_output
+    self.send(msg)
+  File "C:\Users\91932\.conda\envs\torch\lib\http\client.py", line 980, in send
+    self.connect()
+  File "C:\Users\91932\.conda\envs\torch\lib\site-packages\urllib3\connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "C:\Users\91932\.conda\envs\torch\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000001A74A364FD0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\91932\.conda\envs\torch\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\91932\.conda\envs\torch\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\91932\.conda\envs\torch\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=8097): Max retries exceeded with url: /env/main (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A74A364FD0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\91932\.conda\envs\torch\lib\site-packages\visdom\__init__.py", line 756, in _send
+    return self._handle_post(
+  File "C:\Users\91932\.conda\envs\torch\lib\site-packages\visdom\__init__.py", line 720, in _handle_post
+    r = self.session.post(url, data=data)
+  File "C:\Users\91932\.conda\envs\torch\lib\site-packages\requests\sessions.py", line 635, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "C:\Users\91932\.conda\envs\torch\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\91932\.conda\envs\torch\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\91932\.conda\envs\torch\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=8097): Max retries exceeded with url: /env/main (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A74A364FD0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+Without the incoming socket you cannot receive events from the server or register event handlers to your Visdom client.
+Exception in user code:
+------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\91932\.conda\envs\torch\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\91932\.conda\envs\torch\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "C:\Users\91932\.conda\envs\torch\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\91932\.conda\envs\torch\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\91932\.conda\envs\torch\lib\site-packages\urllib3\connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\91932\.conda\envs\torch\lib\site-packages\urllib3\connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "C:\Users\91932\.conda\envs\torch\lib\http\client.py", line 1285, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\91932\.conda\envs\torch\lib\http\client.py", line 1331, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\91932\.conda\envs\torch\lib\http\client.py", line 1280, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\91932\.conda\envs\torch\lib\http\client.py", line 1040, in _send_output
+    self.send(msg)
+  File "C:\Users\91932\.conda\envs\torch\lib\http\client.py", line 980, in send
+    self.connect()
+  File "C:\Users\91932\.conda\envs\torch\lib\site-packages\urllib3\connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "C:\Users\91932\.conda\envs\torch\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000001A74A375760>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\91932\.conda\envs\torch\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "C:\Users\91932\.conda\envs\torch\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "C:\Users\91932\.conda\envs\torch\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=8097): Max retries exceeded with url: /events (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A74A375760>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\91932\.conda\envs\torch\lib\site-packages\visdom\__init__.py", line 756, in _send
+    return self._handle_post(
+  File "C:\Users\91932\.conda\envs\torch\lib\site-packages\visdom\__init__.py", line 720, in _handle_post
+    r = self.session.post(url, data=data)
+  File "C:\Users\91932\.conda\envs\torch\lib\site-packages\requests\sessions.py", line 635, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "C:\Users\91932\.conda\envs\torch\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\91932\.conda\envs\torch\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\91932\.conda\envs\torch\lib\site-packages\requests\adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=8097): Max retries exceeded with url: /events (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A74A375760>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+{'data_root': './datasets/data', 'dataset': 'voc', 'num_classes': 21, 'model': 'deeplabv3plus_resnet50', 'separable_conv': False, 'output_stride': 16, 'test_only': False, 'save_val_results': False, 'total_itrs': 30000.0, 'lr': 0.01, 'lr_policy': 'poly', 'step_size': 10000, 'crop_val': False, 'batch_size': 2, 'val_batch_size': 4, 'crop_size': 512, 'ckpt': None, 'continue_training': False, 'loss_type': 'cross_entropy', 'gpu_id': '0', 'weight_decay': 0.0001, 'random_seed': 1, 'print_interval': 10, 'val_interval': 100, 'download': False, 'year': '2012', 'enable_vis': True, 'vis_port': '8097', 'vis_env': 'main', 'vis_num_samples': 8}
+Device: cuda
+Dataset: voc, Train set: 28, Val set: 7
+Backend QtAgg is interactive backend. Turning interactive mode on.
+C:\Users\91932\.conda\envs\torch\lib\site-packages\torch\functional.py:478: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  C:\cb\pytorch_1000000000000\work\aten\src\ATen\native\TensorShape.cpp:2895.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+[!] Retrain

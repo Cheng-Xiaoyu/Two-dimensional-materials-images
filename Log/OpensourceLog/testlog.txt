@@ -1,0 +1,634 @@
+Setting up a new session...
+Without the incoming socket you cannot receive events from the server or register event handlers to your Visdom client.
+{'data_root': './datasets/data', 'dataset': 'voc', 'num_classes': 21, 'model': 'deeplabv3plus_resnet50', 'separable_conv': False, 'output_stride': 16, 'test_only': False, 'save_val_results': False, 'total_itrs': 30000, 'lr': 0.01, 'lr_policy': 'poly', 'step_size': 10000, 'crop_val': True, 'batch_size': 4, 'val_batch_size': 4, 'crop_size': 512, 'ckpt': None, 'continue_training': False, 'loss_type': 'cross_entropy', 'gpu_id': '0', 'weight_decay': 0.0001, 'random_seed': 1, 'print_interval': 10, 'val_interval': 100, 'download': False, 'year': '2012', 'enable_vis': True, 'vis_port': '8097', 'vis_env': 'main', 'vis_num_samples': 8}
+Device: cuda
+Dataset: voc, Train set: 28, Val set: 7
+[!] Retrain
+{'Loss': {'cur_itrs': 1, 'np_loss': 3.5745010375976562}}
+{'Loss': {'cur_itrs': 2, 'np_loss': 3.4571495056152344}}
+{'Loss': {'cur_itrs': 3, 'np_loss': 2.9446468353271484}}
+{'Loss': {'cur_itrs': 4, 'np_loss': 2.1374480724334717}}
+{'Loss': {'cur_itrs': 5, 'np_loss': 1.5419001579284668}}
+{'Loss': {'cur_itrs': 6, 'np_loss': 0.8957005739212036}}
+{'Loss': {'cur_itrs': 7, 'np_loss': 2.1394965648651123}}
+{'Loss': {'cur_itrs': 8, 'np_loss': 0.9572388529777527}}
+{'Loss': {'cur_itrs': 9, 'np_loss': 0.5478335022926331}}
+{'Loss': {'cur_itrs': 10, 'np_loss': 0.2113591730594635}}
+{'cur_epochs': 2, 'cur_itrs': 10, 'interval_loss': 1.8407274276018142}
+{'Loss': {'cur_itrs': 11, 'np_loss': 0.1599169671535492}}
+{'Loss': {'cur_itrs': 12, 'np_loss': 0.31997138261795044}}
+{'Loss': {'cur_itrs': 13, 'np_loss': 0.597176730632782}}
+{'Loss': {'cur_itrs': 14, 'np_loss': 0.644747793674469}}
+{'Loss': {'cur_itrs': 15, 'np_loss': 0.31856703758239746}}
+{'Loss': {'cur_itrs': 16, 'np_loss': 0.11104819178581238}}
+{'Loss': {'cur_itrs': 17, 'np_loss': 0.4504721164703369}}
+{'Loss': {'cur_itrs': 18, 'np_loss': 0.12065569311380386}}
+{'Loss': {'cur_itrs': 19, 'np_loss': 0.5458816289901733}}
+{'Loss': {'cur_itrs': 20, 'np_loss': 0.23133805394172668}}
+{'cur_epochs': 3, 'cur_itrs': 20, 'interval_loss': 0.3499775595963001}
+{'Loss': {'cur_itrs': 21, 'np_loss': 0.13372494280338287}}
+{'Loss': {'cur_itrs': 22, 'np_loss': 0.21692101657390594}}
+{'Loss': {'cur_itrs': 23, 'np_loss': 0.2749195396900177}}
+{'Loss': {'cur_itrs': 24, 'np_loss': 0.32923492789268494}}
+{'Loss': {'cur_itrs': 25, 'np_loss': 0.10367703437805176}}
+{'Loss': {'cur_itrs': 26, 'np_loss': 0.1762058585882187}}
+{'Loss': {'cur_itrs': 27, 'np_loss': 0.42186659574508667}}
+{'Loss': {'cur_itrs': 28, 'np_loss': 0.21014787256717682}}
+{'Loss': {'cur_itrs': 29, 'np_loss': 0.19993522763252258}}
+{'Loss': {'cur_itrs': 30, 'np_loss': 0.20884209871292114}}
+{'cur_epochs': 5, 'cur_itrs': 30, 'interval_loss': 0.2275475114583969}
+{'Loss': {'cur_itrs': 31, 'np_loss': 0.13977250456809998}}
+{'Loss': {'cur_itrs': 32, 'np_loss': 0.13888411223888397}}
+{'Loss': {'cur_itrs': 33, 'np_loss': 0.3683563768863678}}
+{'Loss': {'cur_itrs': 34, 'np_loss': 0.1813448667526245}}
+{'Loss': {'cur_itrs': 35, 'np_loss': 0.26698967814445496}}
+{'Loss': {'cur_itrs': 36, 'np_loss': 0.24986319243907928}}
+{'Loss': {'cur_itrs': 37, 'np_loss': 0.18006031215190887}}
+{'Loss': {'cur_itrs': 38, 'np_loss': 0.19980908930301666}}
+{'Loss': {'cur_itrs': 39, 'np_loss': 0.09561333805322647}}
+{'Loss': {'cur_itrs': 40, 'np_loss': 0.2496907114982605}}
+{'cur_epochs': 6, 'cur_itrs': 40, 'interval_loss': 0.2070384182035923}
+{'Loss': {'cur_itrs': 41, 'np_loss': 0.1199638769030571}}
+{'Loss': {'cur_itrs': 42, 'np_loss': 0.43563759326934814}}
+{'Loss': {'cur_itrs': 43, 'np_loss': 0.1396242082118988}}
+{'Loss': {'cur_itrs': 44, 'np_loss': 0.3498878479003906}}
+{'Loss': {'cur_itrs': 45, 'np_loss': 0.1849222481250763}}
+{'Loss': {'cur_itrs': 46, 'np_loss': 0.368554949760437}}
+{'Loss': {'cur_itrs': 47, 'np_loss': 0.1557822823524475}}
+{'Loss': {'cur_itrs': 48, 'np_loss': 0.17270544171333313}}
+{'Loss': {'cur_itrs': 49, 'np_loss': 0.3456026315689087}}
+{'Loss': {'cur_itrs': 50, 'np_loss': 0.2832121253013611}}
+{'cur_epochs': 8, 'cur_itrs': 50, 'interval_loss': 0.25558932051062583}
+{'Loss': {'cur_itrs': 51, 'np_loss': 0.8272610306739807}}
+{'Loss': {'cur_itrs': 52, 'np_loss': 0.09802107512950897}}
+{'Loss': {'cur_itrs': 53, 'np_loss': 0.1023605540394783}}
+{'Loss': {'cur_itrs': 54, 'np_loss': 0.09658654034137726}}
+{'Loss': {'cur_itrs': 55, 'np_loss': 0.15200504660606384}}
+{'Loss': {'cur_itrs': 56, 'np_loss': 0.14007216691970825}}
+{'Loss': {'cur_itrs': 57, 'np_loss': 0.2101655900478363}}
+{'Loss': {'cur_itrs': 58, 'np_loss': 0.22048264741897583}}
+{'Loss': {'cur_itrs': 59, 'np_loss': 0.15658995509147644}}
+{'Loss': {'cur_itrs': 60, 'np_loss': 0.21861575543880463}}
+{'cur_epochs': 9, 'cur_itrs': 60, 'interval_loss': 0.22221603617072105}
+{'Loss': {'cur_itrs': 61, 'np_loss': 0.21912483870983124}}
+{'Loss': {'cur_itrs': 62, 'np_loss': 0.07777559757232666}}
+{'Loss': {'cur_itrs': 63, 'np_loss': 0.11069855093955994}}
+{'Loss': {'cur_itrs': 64, 'np_loss': 0.3009101152420044}}
+{'Loss': {'cur_itrs': 65, 'np_loss': 0.07258797436952591}}
+{'Loss': {'cur_itrs': 66, 'np_loss': 0.08280876278877258}}
+{'Loss': {'cur_itrs': 67, 'np_loss': 0.34728968143463135}}
+{'Loss': {'cur_itrs': 68, 'np_loss': 0.07892972230911255}}
+{'Loss': {'cur_itrs': 69, 'np_loss': 0.0892292782664299}}
+{'Loss': {'cur_itrs': 70, 'np_loss': 0.06323155760765076}}
+{'cur_epochs': 10, 'cur_itrs': 70, 'interval_loss': 0.14425860792398454}
+{'Loss': {'cur_itrs': 71, 'np_loss': 0.09125475585460663}}
+{'Loss': {'cur_itrs': 72, 'np_loss': 0.1684587150812149}}
+{'Loss': {'cur_itrs': 73, 'np_loss': 0.14977532625198364}}
+{'Loss': {'cur_itrs': 74, 'np_loss': 0.12173615396022797}}
+{'Loss': {'cur_itrs': 75, 'np_loss': 0.13702180981636047}}
+{'Loss': {'cur_itrs': 76, 'np_loss': 0.09331469982862473}}
+{'Loss': {'cur_itrs': 77, 'np_loss': 0.14690548181533813}}
+{'Loss': {'cur_itrs': 78, 'np_loss': 0.26414263248443604}}
+{'Loss': {'cur_itrs': 79, 'np_loss': 0.08841759711503983}}
+{'Loss': {'cur_itrs': 80, 'np_loss': 0.14985045790672302}}
+{'cur_epochs': 12, 'cur_itrs': 80, 'interval_loss': 0.14108776301145554}
+{'Loss': {'cur_itrs': 81, 'np_loss': 0.08225909620523453}}
+{'Loss': {'cur_itrs': 82, 'np_loss': 0.10060404241085052}}
+{'Loss': {'cur_itrs': 83, 'np_loss': 0.2522064447402954}}
+{'Loss': {'cur_itrs': 84, 'np_loss': 0.0839327871799469}}
+{'Loss': {'cur_itrs': 85, 'np_loss': 0.13049039244651794}}
+{'Loss': {'cur_itrs': 86, 'np_loss': 0.08709913492202759}}
+{'Loss': {'cur_itrs': 87, 'np_loss': 0.11096417158842087}}
+{'Loss': {'cur_itrs': 88, 'np_loss': 0.10213988274335861}}
+{'Loss': {'cur_itrs': 89, 'np_loss': 0.13150814175605774}}
+{'Loss': {'cur_itrs': 90, 'np_loss': 0.13101933896541595}}
+{'cur_epochs': 13, 'cur_itrs': 90, 'interval_loss': 0.1212223432958126}
+{'Loss': {'cur_itrs': 91, 'np_loss': 0.1718207597732544}}
+{'Loss': {'cur_itrs': 92, 'np_loss': 0.19552648067474365}}
+{'Loss': {'cur_itrs': 93, 'np_loss': 0.1351001113653183}}
+{'Loss': {'cur_itrs': 94, 'np_loss': 0.09375778585672379}}
+{'Loss': {'cur_itrs': 95, 'np_loss': 0.22150452435016632}}
+{'Loss': {'cur_itrs': 96, 'np_loss': 0.1423606276512146}}
+{'Loss': {'cur_itrs': 97, 'np_loss': 0.08821572363376617}}
+{'Loss': {'cur_itrs': 98, 'np_loss': 0.1409921646118164}}
+{'Loss': {'cur_itrs': 99, 'np_loss': 0.07917880266904831}}
+{'Loss': {'cur_itrs': 100, 'np_loss': 0.0921081006526947}}
+{'cur_epochs': 15, 'cur_itrs': 100, 'interval_loss': 0.13605650812387465}
+Model saved as checkpoints/latest_deeplabv3plus_resnet50_voc_os16.pth
+validation...
+
+0it [00:00, ?it/s]
+1it [00:00,  3.91it/s]
+2it [00:00,  5.55it/s]
+2it [00:00,  4.58it/s]
+/home/ldq/data_LDQLab/Cxy_files/pycharm_tmp/DeepLabV3Plus-Pytorch-master/metrics/stream_metrics.py:66: RuntimeWarning: invalid value encountered in divide
+  acc_cls = np.diag(hist) / hist.sum(axis=1)
+/home/ldq/data_LDQLab/Cxy_files/pycharm_tmp/DeepLabV3Plus-Pytorch-master/metrics/stream_metrics.py:68: RuntimeWarning: invalid value encountered in divide
+  iu = np.diag(hist) / (hist.sum(axis=1) + hist.sum(axis=0) - np.diag(hist))
+
+Overall Acc: 0.954753
+Mean Acc: 0.456706
+FreqW Acc: 0.913517
+Mean IoU: 0.439472
+
+Model saved as checkpoints/best_deeplabv3plus_resnet50_voc_os16.pth
+{'cur_itrs': 100, 'val_score': {'Overall Acc': 0.9547527858189174, 'Mean Acc': 0.4567057496574475, 'FreqW Acc': 0.9135173487485495, 'Mean IoU': 0.4394715122043914, 'Class IoU': {0: 0.952261302012465, 1: 0.0, 2: 0.08753902923644621, 3: 0.7180857175686545, 4: nan, 5: nan, 6: nan, 7: nan, 8: nan, 9: nan, 10: nan, 11: nan, 12: nan, 13: nan, 14: nan, 15: nan, 16: nan, 17: nan, 18: nan, 19: nan, 20: nan}}}
+{'Loss': {'cur_itrs': 101, 'np_loss': 0.16657830774784088}}
+{'Loss': {'cur_itrs': 102, 'np_loss': 0.1836392730474472}}
+{'Loss': {'cur_itrs': 103, 'np_loss': 0.3246386647224426}}
+{'Loss': {'cur_itrs': 104, 'np_loss': 0.057860419154167175}}
+{'Loss': {'cur_itrs': 105, 'np_loss': 0.07700861245393753}}
+{'Loss': {'cur_itrs': 106, 'np_loss': 0.1023862212896347}}
+{'Loss': {'cur_itrs': 107, 'np_loss': 0.13031786680221558}}
+{'Loss': {'cur_itrs': 108, 'np_loss': 0.1438513696193695}}
+{'Loss': {'cur_itrs': 109, 'np_loss': 0.05125676095485687}}
+{'Loss': {'cur_itrs': 110, 'np_loss': 0.07411759346723557}}
+{'cur_epochs': 16, 'cur_itrs': 110, 'interval_loss': 0.13116550892591478}
+{'Loss': {'cur_itrs': 111, 'np_loss': 0.1421530842781067}}
+{'Loss': {'cur_itrs': 112, 'np_loss': 0.10973532497882843}}
+{'Loss': {'cur_itrs': 113, 'np_loss': 0.07190124690532684}}
+{'Loss': {'cur_itrs': 114, 'np_loss': 0.11449012160301208}}
+{'Loss': {'cur_itrs': 115, 'np_loss': 0.083079993724823}}
+{'Loss': {'cur_itrs': 116, 'np_loss': 0.0673050507903099}}
+{'Loss': {'cur_itrs': 117, 'np_loss': 0.18800324201583862}}
+{'Loss': {'cur_itrs': 118, 'np_loss': 0.08622602373361588}}
+{'Loss': {'cur_itrs': 119, 'np_loss': 0.18000996112823486}}
+{'Loss': {'cur_itrs': 120, 'np_loss': 0.17956297099590302}}
+{'cur_epochs': 18, 'cur_itrs': 120, 'interval_loss': 0.12224670201539993}
+{'Loss': {'cur_itrs': 121, 'np_loss': 0.0545012392103672}}
+{'Loss': {'cur_itrs': 122, 'np_loss': 0.06724013388156891}}
+{'Loss': {'cur_itrs': 123, 'np_loss': 0.09386290609836578}}
+{'Loss': {'cur_itrs': 124, 'np_loss': 0.0845765620470047}}
+{'Loss': {'cur_itrs': 125, 'np_loss': 0.06493639945983887}}
+{'Loss': {'cur_itrs': 126, 'np_loss': 0.2473071962594986}}
+{'Loss': {'cur_itrs': 127, 'np_loss': 0.21721479296684265}}
+{'Loss': {'cur_itrs': 128, 'np_loss': 0.13819466531276703}}
+{'Loss': {'cur_itrs': 129, 'np_loss': 0.24172376096248627}}
+{'Loss': {'cur_itrs': 130, 'np_loss': 0.12190652638673782}}
+{'cur_epochs': 19, 'cur_itrs': 130, 'interval_loss': 0.13314641825854778}
+{'Loss': {'cur_itrs': 131, 'np_loss': 0.06950992345809937}}
+{'Loss': {'cur_itrs': 132, 'np_loss': 0.08572639524936676}}
+{'Loss': {'cur_itrs': 133, 'np_loss': 0.078946053981781}}
+{'Loss': {'cur_itrs': 134, 'np_loss': 0.0653521716594696}}
+{'Loss': {'cur_itrs': 135, 'np_loss': 0.08206304907798767}}
+{'Loss': {'cur_itrs': 136, 'np_loss': 0.40993988513946533}}
+{'Loss': {'cur_itrs': 137, 'np_loss': 0.10202205181121826}}
+{'Loss': {'cur_itrs': 138, 'np_loss': 0.10740050673484802}}
+{'Loss': {'cur_itrs': 139, 'np_loss': 0.12065309286117554}}
+{'Loss': {'cur_itrs': 140, 'np_loss': 0.09063110500574112}}
+{'cur_epochs': 20, 'cur_itrs': 140, 'interval_loss': 0.12122442349791526}
+{'Loss': {'cur_itrs': 141, 'np_loss': 0.07682419568300247}}
+{'Loss': {'cur_itrs': 142, 'np_loss': 0.08825073391199112}}
+{'Loss': {'cur_itrs': 143, 'np_loss': 0.7348204255104065}}
+{'Loss': {'cur_itrs': 144, 'np_loss': 0.058532554656267166}}
+{'Loss': {'cur_itrs': 145, 'np_loss': 0.1528591513633728}}
+{'Loss': {'cur_itrs': 146, 'np_loss': 0.15523044764995575}}
+{'Loss': {'cur_itrs': 147, 'np_loss': 0.05989603325724602}}
+{'Loss': {'cur_itrs': 148, 'np_loss': 0.10644315183162689}}
+{'Loss': {'cur_itrs': 149, 'np_loss': 0.3343867063522339}}
+{'Loss': {'cur_itrs': 150, 'np_loss': 0.111318439245224}}
+{'cur_epochs': 22, 'cur_itrs': 150, 'interval_loss': 0.18785618394613265}
+{'Loss': {'cur_itrs': 151, 'np_loss': 0.05855676531791687}}
+{'Loss': {'cur_itrs': 152, 'np_loss': 0.314694344997406}}
+{'Loss': {'cur_itrs': 153, 'np_loss': 0.13057510554790497}}
+{'Loss': {'cur_itrs': 154, 'np_loss': 0.09164775907993317}}
+{'Loss': {'cur_itrs': 155, 'np_loss': 0.14340493083000183}}
+{'Loss': {'cur_itrs': 156, 'np_loss': 0.11079585552215576}}
+{'Loss': {'cur_itrs': 157, 'np_loss': 0.2015308290719986}}
+{'Loss': {'cur_itrs': 158, 'np_loss': 0.13089147210121155}}
+{'Loss': {'cur_itrs': 159, 'np_loss': 0.20866677165031433}}
+{'Loss': {'cur_itrs': 160, 'np_loss': 0.15067656338214874}}
+{'cur_epochs': 23, 'cur_itrs': 160, 'interval_loss': 0.1541440397500992}
+{'Loss': {'cur_itrs': 161, 'np_loss': 0.08237702399492264}}
+{'Loss': {'cur_itrs': 162, 'np_loss': 0.06642100214958191}}
+{'Loss': {'cur_itrs': 163, 'np_loss': 0.21041974425315857}}
+{'Loss': {'cur_itrs': 164, 'np_loss': 0.13259699940681458}}
+{'Loss': {'cur_itrs': 165, 'np_loss': 0.06998787820339203}}
+{'Loss': {'cur_itrs': 166, 'np_loss': 0.16125160455703735}}
+{'Loss': {'cur_itrs': 167, 'np_loss': 0.07418414205312729}}
+{'Loss': {'cur_itrs': 168, 'np_loss': 0.06200093403458595}}
+{'Loss': {'cur_itrs': 169, 'np_loss': 0.70297771692276}}
+{'Loss': {'cur_itrs': 170, 'np_loss': 0.08430429548025131}}
+{'cur_epochs': 25, 'cur_itrs': 170, 'interval_loss': 0.16465213410556317}
+{'Loss': {'cur_itrs': 171, 'np_loss': 0.04920055344700813}}
+{'Loss': {'cur_itrs': 172, 'np_loss': 0.05646861717104912}}
+{'Loss': {'cur_itrs': 173, 'np_loss': 0.09802239388227463}}
+{'Loss': {'cur_itrs': 174, 'np_loss': 0.1621534526348114}}
+{'Loss': {'cur_itrs': 175, 'np_loss': 0.08192326873540878}}
+{'Loss': {'cur_itrs': 176, 'np_loss': 0.1988115906715393}}
+{'Loss': {'cur_itrs': 177, 'np_loss': 0.058921847492456436}}
+{'Loss': {'cur_itrs': 178, 'np_loss': 0.08613630384206772}}
+{'Loss': {'cur_itrs': 179, 'np_loss': 0.1742006242275238}}
+{'Loss': {'cur_itrs': 180, 'np_loss': 0.0612352155148983}}
+{'cur_epochs': 26, 'cur_itrs': 180, 'interval_loss': 0.10270738676190376}
+{'Loss': {'cur_itrs': 181, 'np_loss': 0.06741255521774292}}
+{'Loss': {'cur_itrs': 182, 'np_loss': 0.1487373411655426}}
+{'Loss': {'cur_itrs': 183, 'np_loss': 0.05895155668258667}}
+{'Loss': {'cur_itrs': 184, 'np_loss': 0.16842029988765717}}
+{'Loss': {'cur_itrs': 185, 'np_loss': 0.14171099662780762}}
+{'Loss': {'cur_itrs': 186, 'np_loss': 0.1390664130449295}}
+{'Loss': {'cur_itrs': 187, 'np_loss': 0.14078429341316223}}
+{'Loss': {'cur_itrs': 188, 'np_loss': 0.09099000692367554}}
+{'Loss': {'cur_itrs': 189, 'np_loss': 0.15923400223255157}}
+{'Loss': {'cur_itrs': 190, 'np_loss': 0.09501919895410538}}
+{'cur_epochs': 28, 'cur_itrs': 190, 'interval_loss': 0.12103266641497612}
+{'Loss': {'cur_itrs': 191, 'np_loss': 0.10696437954902649}}
+{'Loss': {'cur_itrs': 192, 'np_loss': 0.07414457947015762}}
+{'Loss': {'cur_itrs': 193, 'np_loss': 0.39038386940956116}}
+{'Loss': {'cur_itrs': 194, 'np_loss': 0.09686114639043808}}
+{'Loss': {'cur_itrs': 195, 'np_loss': 0.17266973853111267}}
+{'Loss': {'cur_itrs': 196, 'np_loss': 0.05844912678003311}}
+{'Loss': {'cur_itrs': 197, 'np_loss': 0.15752997994422913}}
+{'Loss': {'cur_itrs': 198, 'np_loss': 0.07912231236696243}}
+{'Loss': {'cur_itrs': 199, 'np_loss': 0.08957207202911377}}
+{'Loss': {'cur_itrs': 200, 'np_loss': 0.09497839212417603}}
+{'cur_epochs': 29, 'cur_itrs': 200, 'interval_loss': 0.13206755965948105}
+Model saved as checkpoints/latest_deeplabv3plus_resnet50_voc_os16.pth
+validation...
+
+0it [00:00, ?it/s]
+1it [00:00,  3.56it/s]
+2it [00:00,  5.07it/s]
+2it [00:00,  4.10it/s]
+
+Overall Acc: 0.956494
+Mean Acc: 0.628876
+FreqW Acc: 0.924397
+Mean IoU: 0.521754
+
+Model saved as checkpoints/best_deeplabv3plus_resnet50_voc_os16.pth
+{'cur_itrs': 200, 'val_score': {'Overall Acc': 0.9564944675990513, 'Mean Acc': 0.6288761928048036, 'FreqW Acc': 0.9243970766040706, 'Mean IoU': 0.521754098821279, 'Class IoU': {0: 0.9585464988205066, 1: 0.15812933352200367, 2: 0.2208906718123191, 3: 0.7494498911302865, 4: nan, 5: nan, 6: nan, 7: nan, 8: nan, 9: nan, 10: nan, 11: nan, 12: nan, 13: nan, 14: nan, 15: nan, 16: nan, 17: nan, 18: nan, 19: nan, 20: nan}}}
+{'Loss': {'cur_itrs': 201, 'np_loss': 0.0816229060292244}}
+{'Loss': {'cur_itrs': 202, 'np_loss': 0.1930985003709793}}
+{'Loss': {'cur_itrs': 203, 'np_loss': 0.04540375620126724}}
+{'Loss': {'cur_itrs': 204, 'np_loss': 0.059606507420539856}}
+{'Loss': {'cur_itrs': 205, 'np_loss': 0.27340948581695557}}
+{'Loss': {'cur_itrs': 206, 'np_loss': 0.08292584121227264}}
+{'Loss': {'cur_itrs': 207, 'np_loss': 0.13271813094615936}}
+{'Loss': {'cur_itrs': 208, 'np_loss': 0.05777766928076744}}
+{'Loss': {'cur_itrs': 209, 'np_loss': 0.12982477247714996}}
+{'Loss': {'cur_itrs': 210, 'np_loss': 0.1061631441116333}}
+{'cur_epochs': 30, 'cur_itrs': 210, 'interval_loss': 0.11625507138669491}
+{'Loss': {'cur_itrs': 211, 'np_loss': 0.087272047996521}}
+{'Loss': {'cur_itrs': 212, 'np_loss': 0.18642860651016235}}
+{'Loss': {'cur_itrs': 213, 'np_loss': 0.08191243559122086}}
+{'Loss': {'cur_itrs': 214, 'np_loss': 0.055953990668058395}}
+{'Loss': {'cur_itrs': 215, 'np_loss': 0.058247052133083344}}
+{'Loss': {'cur_itrs': 216, 'np_loss': 0.061255618929862976}}
+{'Loss': {'cur_itrs': 217, 'np_loss': 0.0913427397608757}}
+{'Loss': {'cur_itrs': 218, 'np_loss': 0.09964202344417572}}
+{'Loss': {'cur_itrs': 219, 'np_loss': 0.07259665429592133}}
+{'Loss': {'cur_itrs': 220, 'np_loss': 0.04783394932746887}}
+{'cur_epochs': 32, 'cur_itrs': 220, 'interval_loss': 0.08424851186573505}
+{'Loss': {'cur_itrs': 221, 'np_loss': 0.07792440801858902}}
+{'Loss': {'cur_itrs': 222, 'np_loss': 0.13769185543060303}}
+{'Loss': {'cur_itrs': 223, 'np_loss': 0.17076240479946136}}
+{'Loss': {'cur_itrs': 224, 'np_loss': 0.06651639193296432}}
+{'Loss': {'cur_itrs': 225, 'np_loss': 0.060162052512168884}}
+{'Loss': {'cur_itrs': 226, 'np_loss': 0.052079323679208755}}
+{'Loss': {'cur_itrs': 227, 'np_loss': 0.08787345886230469}}
+{'Loss': {'cur_itrs': 228, 'np_loss': 0.05798973888158798}}
+{'Loss': {'cur_itrs': 229, 'np_loss': 0.06935980170965195}}
+{'Loss': {'cur_itrs': 230, 'np_loss': 0.13631564378738403}}
+{'cur_epochs': 33, 'cur_itrs': 230, 'interval_loss': 0.0916675079613924}
+{'Loss': {'cur_itrs': 231, 'np_loss': 0.18832708895206451}}
+{'Loss': {'cur_itrs': 232, 'np_loss': 0.07868438959121704}}
+{'Loss': {'cur_itrs': 233, 'np_loss': 0.05298438295722008}}
+{'Loss': {'cur_itrs': 234, 'np_loss': 0.07194197177886963}}
+{'Loss': {'cur_itrs': 235, 'np_loss': 0.3274197280406952}}
+{'Loss': {'cur_itrs': 236, 'np_loss': 0.08330978453159332}}
+{'Loss': {'cur_itrs': 237, 'np_loss': 0.04466089606285095}}
+{'Loss': {'cur_itrs': 238, 'np_loss': 0.13476021587848663}}
+{'Loss': {'cur_itrs': 239, 'np_loss': 0.11877122521400452}}
+{'Loss': {'cur_itrs': 240, 'np_loss': 0.046364445239305496}}
+{'cur_epochs': 35, 'cur_itrs': 240, 'interval_loss': 0.11472241282463073}
+{'Loss': {'cur_itrs': 241, 'np_loss': 0.12368734925985336}}
+{'Loss': {'cur_itrs': 242, 'np_loss': 0.10277894139289856}}
+{'Loss': {'cur_itrs': 243, 'np_loss': 0.042475782334804535}}
+{'Loss': {'cur_itrs': 244, 'np_loss': 0.07203249633312225}}
+{'Loss': {'cur_itrs': 245, 'np_loss': 0.10968642681837082}}
+{'Loss': {'cur_itrs': 246, 'np_loss': 0.1494373232126236}}
+{'Loss': {'cur_itrs': 247, 'np_loss': 0.15914233028888702}}
+{'Loss': {'cur_itrs': 248, 'np_loss': 0.12056293338537216}}
+{'Loss': {'cur_itrs': 249, 'np_loss': 0.07339659333229065}}
+{'Loss': {'cur_itrs': 250, 'np_loss': 0.043913114815950394}}
+{'cur_epochs': 36, 'cur_itrs': 250, 'interval_loss': 0.09971132911741734}
+{'Loss': {'cur_itrs': 251, 'np_loss': 0.05940702185034752}}
+{'Loss': {'cur_itrs': 252, 'np_loss': 0.08163207024335861}}
+{'Loss': {'cur_itrs': 253, 'np_loss': 0.047660551965236664}}
+{'Loss': {'cur_itrs': 254, 'np_loss': 0.06777288019657135}}
+{'Loss': {'cur_itrs': 255, 'np_loss': 0.12432139366865158}}
+{'Loss': {'cur_itrs': 256, 'np_loss': 0.07838892936706543}}
+{'Loss': {'cur_itrs': 257, 'np_loss': 0.097209632396698}}
+{'Loss': {'cur_itrs': 258, 'np_loss': 0.06939942389726639}}
+{'Loss': {'cur_itrs': 259, 'np_loss': 0.12980511784553528}}
+{'Loss': {'cur_itrs': 260, 'np_loss': 0.04539817199110985}}
+{'cur_epochs': 38, 'cur_itrs': 260, 'interval_loss': 0.08009951934218407}
+{'Loss': {'cur_itrs': 261, 'np_loss': 0.03782946616411209}}
+{'Loss': {'cur_itrs': 262, 'np_loss': 0.11369447410106659}}
+{'Loss': {'cur_itrs': 263, 'np_loss': 0.08920696377754211}}
+{'Loss': {'cur_itrs': 264, 'np_loss': 0.11846691370010376}}
+{'Loss': {'cur_itrs': 265, 'np_loss': 0.11642506718635559}}
+{'Loss': {'cur_itrs': 266, 'np_loss': 0.05044984072446823}}
+{'Loss': {'cur_itrs': 267, 'np_loss': 0.06720072031021118}}
+{'Loss': {'cur_itrs': 268, 'np_loss': 0.05471187084913254}}
+{'Loss': {'cur_itrs': 269, 'np_loss': 2.2782034873962402}}
+{'Loss': {'cur_itrs': 270, 'np_loss': 0.0534973070025444}}
+{'cur_epochs': 39, 'cur_itrs': 270, 'interval_loss': 0.2979686111211777}
+{'Loss': {'cur_itrs': 271, 'np_loss': 0.09296516329050064}}
+{'Loss': {'cur_itrs': 272, 'np_loss': 0.05478357523679733}}
+{'Loss': {'cur_itrs': 273, 'np_loss': 0.07196531444787979}}
+{'Loss': {'cur_itrs': 274, 'np_loss': 0.12102670222520828}}
+{'Loss': {'cur_itrs': 275, 'np_loss': 0.07589211314916611}}
+{'Loss': {'cur_itrs': 276, 'np_loss': 0.05959970876574516}}
+{'Loss': {'cur_itrs': 277, 'np_loss': 0.11236952990293503}}
+{'Loss': {'cur_itrs': 278, 'np_loss': 0.14636735618114471}}
+{'Loss': {'cur_itrs': 279, 'np_loss': 0.0727304220199585}}
+{'Loss': {'cur_itrs': 280, 'np_loss': 0.08739664405584335}}
+{'cur_epochs': 40, 'cur_itrs': 280, 'interval_loss': 0.08950965292751789}
+{'Loss': {'cur_itrs': 281, 'np_loss': 0.14699150621891022}}
+{'Loss': {'cur_itrs': 282, 'np_loss': 0.12911130487918854}}
+{'Loss': {'cur_itrs': 283, 'np_loss': 0.07769065350294113}}
+{'Loss': {'cur_itrs': 284, 'np_loss': 0.05130338296294212}}
+{'Loss': {'cur_itrs': 285, 'np_loss': 0.1313169300556183}}
+{'Loss': {'cur_itrs': 286, 'np_loss': 0.220213383436203}}
+{'Loss': {'cur_itrs': 287, 'np_loss': 0.14292864501476288}}
+{'Loss': {'cur_itrs': 288, 'np_loss': 0.06691845506429672}}
+{'Loss': {'cur_itrs': 289, 'np_loss': 0.09722632169723511}}
+{'Loss': {'cur_itrs': 290, 'np_loss': 0.17505310475826263}}
+{'cur_epochs': 42, 'cur_itrs': 290, 'interval_loss': 0.12387536875903607}
+{'Loss': {'cur_itrs': 291, 'np_loss': 0.07155235856771469}}
+{'Loss': {'cur_itrs': 292, 'np_loss': 0.13702431321144104}}
+{'Loss': {'cur_itrs': 293, 'np_loss': 0.06019869074225426}}
+{'Loss': {'cur_itrs': 294, 'np_loss': 0.0967358723282814}}
+{'Loss': {'cur_itrs': 295, 'np_loss': 0.06547518074512482}}
+{'Loss': {'cur_itrs': 296, 'np_loss': 0.0857137069106102}}
+{'Loss': {'cur_itrs': 297, 'np_loss': 0.10876159369945526}}
+{'Loss': {'cur_itrs': 298, 'np_loss': 0.07679776102304459}}
+{'Loss': {'cur_itrs': 299, 'np_loss': 0.05066870152950287}}
+{'Loss': {'cur_itrs': 300, 'np_loss': 0.18885084986686707}}
+{'cur_epochs': 43, 'cur_itrs': 300, 'interval_loss': 0.09417790286242962}
+Model saved as checkpoints/latest_deeplabv3plus_resnet50_voc_os16.pth
+validation...
+
+0it [00:00, ?it/s]
+1it [00:00,  3.44it/s]
+2it [00:00,  5.08it/s]
+2it [00:00,  4.11it/s]
+
+Overall Acc: 0.973923
+Mean Acc: 0.651187
+FreqW Acc: 0.953700
+Mean IoU: 0.544170
+
+Model saved as checkpoints/best_deeplabv3plus_resnet50_voc_os16.pth
+{'cur_itrs': 300, 'val_score': {'Overall Acc': 0.9739227294921875, 'Mean Acc': 0.6511868432062285, 'FreqW Acc': 0.9536997471780276, 'Mean IoU': 0.5441695928301538, 'Class IoU': {0: 0.9785145381244696, 1: 0.22069591135877664, 2: 0.12466307277628032, 3: 0.8528048490610887, 4: nan, 5: nan, 6: nan, 7: nan, 8: nan, 9: nan, 10: nan, 11: nan, 12: nan, 13: nan, 14: nan, 15: nan, 16: nan, 17: nan, 18: nan, 19: nan, 20: nan}}}
+{'Loss': {'cur_itrs': 301, 'np_loss': 0.08324515074491501}}
+{'Loss': {'cur_itrs': 302, 'np_loss': 0.09775039553642273}}
+{'Loss': {'cur_itrs': 303, 'np_loss': 0.11475957930088043}}
+{'Loss': {'cur_itrs': 304, 'np_loss': 0.21018825471401215}}
+{'Loss': {'cur_itrs': 305, 'np_loss': 0.05848162621259689}}
+{'Loss': {'cur_itrs': 306, 'np_loss': 0.05374281480908394}}
+{'Loss': {'cur_itrs': 307, 'np_loss': 0.09051210433244705}}
+{'Loss': {'cur_itrs': 308, 'np_loss': 0.09472652524709702}}
+{'Loss': {'cur_itrs': 309, 'np_loss': 0.12813784182071686}}
+{'Loss': {'cur_itrs': 310, 'np_loss': 0.08398040384054184}}
+{'cur_epochs': 45, 'cur_itrs': 310, 'interval_loss': 0.10155246965587139}
+{'Loss': {'cur_itrs': 311, 'np_loss': 0.09041856974363327}}
+{'Loss': {'cur_itrs': 312, 'np_loss': 0.12144646793603897}}
+{'Loss': {'cur_itrs': 313, 'np_loss': 0.16087661683559418}}
+{'Loss': {'cur_itrs': 314, 'np_loss': 0.07188332825899124}}
+{'Loss': {'cur_itrs': 315, 'np_loss': 0.0513341911137104}}
+{'Loss': {'cur_itrs': 316, 'np_loss': 0.08900602161884308}}
+{'Loss': {'cur_itrs': 317, 'np_loss': 0.05744555592536926}}
+{'Loss': {'cur_itrs': 318, 'np_loss': 0.0675058662891388}}
+{'Loss': {'cur_itrs': 319, 'np_loss': 0.062079694122076035}}
+{'Loss': {'cur_itrs': 320, 'np_loss': 0.14774084091186523}}
+{'cur_epochs': 46, 'cur_itrs': 320, 'interval_loss': 0.09197371527552604}
+{'Loss': {'cur_itrs': 321, 'np_loss': 0.15306177735328674}}
+{'Loss': {'cur_itrs': 322, 'np_loss': 0.04024778679013252}}
+{'Loss': {'cur_itrs': 323, 'np_loss': 0.10140235722064972}}
+{'Loss': {'cur_itrs': 324, 'np_loss': 0.10778047889471054}}
+{'Loss': {'cur_itrs': 325, 'np_loss': 0.13182823359966278}}
+{'Loss': {'cur_itrs': 326, 'np_loss': 0.07294047623872757}}
+{'Loss': {'cur_itrs': 327, 'np_loss': 0.13764365017414093}}
+{'Loss': {'cur_itrs': 328, 'np_loss': 0.036207426339387894}}
+{'Loss': {'cur_itrs': 329, 'np_loss': 0.05171319097280502}}
+{'Loss': {'cur_itrs': 330, 'np_loss': 0.044243358075618744}}
+{'cur_epochs': 48, 'cur_itrs': 330, 'interval_loss': 0.08770687356591225}
+{'Loss': {'cur_itrs': 331, 'np_loss': 0.09700222313404083}}
+{'Loss': {'cur_itrs': 332, 'np_loss': 0.037959955632686615}}
+{'Loss': {'cur_itrs': 333, 'np_loss': 0.09123922884464264}}
+{'Loss': {'cur_itrs': 334, 'np_loss': 0.06514516472816467}}
+{'Loss': {'cur_itrs': 335, 'np_loss': 0.14970150589942932}}
+{'Loss': {'cur_itrs': 336, 'np_loss': 0.06277615576982498}}
+{'Loss': {'cur_itrs': 337, 'np_loss': 0.06608574092388153}}
+{'Loss': {'cur_itrs': 338, 'np_loss': 0.03637193515896797}}
+{'Loss': {'cur_itrs': 339, 'np_loss': 0.07117374986410141}}
+{'Loss': {'cur_itrs': 340, 'np_loss': 0.07355456799268723}}
+{'cur_epochs': 49, 'cur_itrs': 340, 'interval_loss': 0.07510102279484272}
+{'Loss': {'cur_itrs': 341, 'np_loss': 0.09759190678596497}}
+{'Loss': {'cur_itrs': 342, 'np_loss': 0.12390529364347458}}
+{'Loss': {'cur_itrs': 343, 'np_loss': 0.0991714671254158}}
+{'Loss': {'cur_itrs': 344, 'np_loss': 0.05697839707136154}}
+{'Loss': {'cur_itrs': 345, 'np_loss': 0.13884757459163666}}
+{'Loss': {'cur_itrs': 346, 'np_loss': 0.0680190697312355}}
+{'Loss': {'cur_itrs': 347, 'np_loss': 0.05051066726446152}}
+{'Loss': {'cur_itrs': 348, 'np_loss': 0.07280542701482773}}
+{'Loss': {'cur_itrs': 349, 'np_loss': 0.05380935221910477}}
+{'Loss': {'cur_itrs': 350, 'np_loss': 0.06697447597980499}}
+{'cur_epochs': 50, 'cur_itrs': 350, 'interval_loss': 0.08286136314272881}
+{'Loss': {'cur_itrs': 351, 'np_loss': 0.06397226452827454}}
+{'Loss': {'cur_itrs': 352, 'np_loss': 0.04176238924264908}}
+{'Loss': {'cur_itrs': 353, 'np_loss': 0.1148403137922287}}
+{'Loss': {'cur_itrs': 354, 'np_loss': 0.049626242369413376}}
+{'Loss': {'cur_itrs': 355, 'np_loss': 0.12837998569011688}}
+{'Loss': {'cur_itrs': 356, 'np_loss': 0.07997973263263702}}
+{'Loss': {'cur_itrs': 357, 'np_loss': 0.08222882449626923}}
+{'Loss': {'cur_itrs': 358, 'np_loss': 0.15117940306663513}}
+{'Loss': {'cur_itrs': 359, 'np_loss': 0.11294151097536087}}
+{'Loss': {'cur_itrs': 360, 'np_loss': 0.04896419122815132}}
+{'cur_epochs': 52, 'cur_itrs': 360, 'interval_loss': 0.08738748580217362}
+{'Loss': {'cur_itrs': 361, 'np_loss': 0.03943701460957527}}
+{'Loss': {'cur_itrs': 362, 'np_loss': 0.05681786313652992}}
+{'Loss': {'cur_itrs': 363, 'np_loss': 0.08821073174476624}}
+{'Loss': {'cur_itrs': 364, 'np_loss': 0.07772117853164673}}
+{'Loss': {'cur_itrs': 365, 'np_loss': 0.052053313702344894}}
+{'Loss': {'cur_itrs': 366, 'np_loss': 0.11362239718437195}}
+{'Loss': {'cur_itrs': 367, 'np_loss': 0.0719945952296257}}
+{'Loss': {'cur_itrs': 368, 'np_loss': 0.05268315225839615}}
+{'Loss': {'cur_itrs': 369, 'np_loss': 0.08236277848482132}}
+{'Loss': {'cur_itrs': 370, 'np_loss': 0.07526496797800064}}
+{'cur_epochs': 53, 'cur_itrs': 370, 'interval_loss': 0.07101679928600788}
+{'Loss': {'cur_itrs': 371, 'np_loss': 0.03700486943125725}}
+{'Loss': {'cur_itrs': 372, 'np_loss': 0.056208960711956024}}
+{'Loss': {'cur_itrs': 373, 'np_loss': 0.13593629002571106}}
+{'Loss': {'cur_itrs': 374, 'np_loss': 0.07186726480722427}}
+{'Loss': {'cur_itrs': 375, 'np_loss': 0.05412895604968071}}
+{'Loss': {'cur_itrs': 376, 'np_loss': 0.12864112854003906}}
+{'Loss': {'cur_itrs': 377, 'np_loss': 0.08765905350446701}}
+{'Loss': {'cur_itrs': 378, 'np_loss': 0.06406029313802719}}
+{'Loss': {'cur_itrs': 379, 'np_loss': 0.049237463623285294}}
+{'Loss': {'cur_itrs': 380, 'np_loss': 0.04682629927992821}}
+{'cur_epochs': 55, 'cur_itrs': 380, 'interval_loss': 0.0731570579111576}
+{'Loss': {'cur_itrs': 381, 'np_loss': 0.05708415061235428}}
+{'Loss': {'cur_itrs': 382, 'np_loss': 0.10657498240470886}}
+{'Loss': {'cur_itrs': 383, 'np_loss': 0.09062974154949188}}
+{'Loss': {'cur_itrs': 384, 'np_loss': 0.04305272549390793}}
+{'Loss': {'cur_itrs': 385, 'np_loss': 0.08729209005832672}}
+{'Loss': {'cur_itrs': 386, 'np_loss': 0.053506165742874146}}
+{'Loss': {'cur_itrs': 387, 'np_loss': 0.12921470403671265}}
+{'Loss': {'cur_itrs': 388, 'np_loss': 0.07814579457044601}}
+{'Loss': {'cur_itrs': 389, 'np_loss': 0.061646610498428345}}
+{'Loss': {'cur_itrs': 390, 'np_loss': 0.09062369167804718}}
+{'cur_epochs': 56, 'cur_itrs': 390, 'interval_loss': 0.0797770656645298}
+{'Loss': {'cur_itrs': 391, 'np_loss': 0.0704583078622818}}
+{'Loss': {'cur_itrs': 392, 'np_loss': 0.04374281316995621}}
+{'Loss': {'cur_itrs': 393, 'np_loss': 0.3106101155281067}}
+{'Loss': {'cur_itrs': 394, 'np_loss': 0.0500321164727211}}
+{'Loss': {'cur_itrs': 395, 'np_loss': 0.05717747285962105}}
+{'Loss': {'cur_itrs': 396, 'np_loss': 0.10007506608963013}}
+{'Loss': {'cur_itrs': 397, 'np_loss': 0.03707956150174141}}
+{'Loss': {'cur_itrs': 398, 'np_loss': 0.15045905113220215}}
+{'Loss': {'cur_itrs': 399, 'np_loss': 0.04952039197087288}}
+{'Loss': {'cur_itrs': 400, 'np_loss': 0.07197976857423782}}
+{'cur_epochs': 58, 'cur_itrs': 400, 'interval_loss': 0.09411346651613713}
+Model saved as checkpoints/latest_deeplabv3plus_resnet50_voc_os16.pth
+validation...
+
+0it [00:00, ?it/s]
+1it [00:00,  3.32it/s]
+2it [00:00,  4.98it/s]
+2it [00:00,  4.02it/s]
+
+Overall Acc: 0.975636
+Mean Acc: 0.718816
+FreqW Acc: 0.956943
+Mean IoU: 0.585491
+
+Model saved as checkpoints/best_deeplabv3plus_resnet50_voc_os16.pth
+{'cur_itrs': 400, 'val_score': {'Overall Acc': 0.9756360735212054, 'Mean Acc': 0.7188156030626212, 'FreqW Acc': 0.956943110676786, 'Mean IoU': 0.585490760839537, 'Class IoU': {0: 0.980906623656581, 1: 0.27095380313909895, 2: 0.2366219225907422, 3: 0.8534806939717261, 4: nan, 5: nan, 6: nan, 7: nan, 8: nan, 9: nan, 10: nan, 11: nan, 12: nan, 13: nan, 14: nan, 15: nan, 16: nan, 17: nan, 18: nan, 19: nan, 20: nan}}}
+{'Loss': {'cur_itrs': 401, 'np_loss': 0.044779978692531586}}
+{'Loss': {'cur_itrs': 402, 'np_loss': 0.07304880023002625}}
+{'Loss': {'cur_itrs': 403, 'np_loss': 0.03403124213218689}}
+{'Loss': {'cur_itrs': 404, 'np_loss': 0.07425326108932495}}
+{'Loss': {'cur_itrs': 405, 'np_loss': 0.04621793329715729}}
+{'Loss': {'cur_itrs': 406, 'np_loss': 0.1302495300769806}}
+{'Loss': {'cur_itrs': 407, 'np_loss': 0.04806424677371979}}
+{'Loss': {'cur_itrs': 408, 'np_loss': 0.09243295341730118}}
+{'Loss': {'cur_itrs': 409, 'np_loss': 0.08667546510696411}}
+{'Loss': {'cur_itrs': 410, 'np_loss': 0.34197700023651123}}
+{'cur_epochs': 59, 'cur_itrs': 410, 'interval_loss': 0.09717304110527039}
+{'Loss': {'cur_itrs': 411, 'np_loss': 0.05775616317987442}}
+{'Loss': {'cur_itrs': 412, 'np_loss': 0.05534712225198746}}
+{'Loss': {'cur_itrs': 413, 'np_loss': 0.04274880141019821}}
+{'Loss': {'cur_itrs': 414, 'np_loss': 0.0643584281206131}}
+{'Loss': {'cur_itrs': 415, 'np_loss': 0.07836839556694031}}
+{'Loss': {'cur_itrs': 416, 'np_loss': 0.06231420487165451}}
+{'Loss': {'cur_itrs': 417, 'np_loss': 0.11411859840154648}}
+{'Loss': {'cur_itrs': 418, 'np_loss': 0.03803442418575287}}
+{'Loss': {'cur_itrs': 419, 'np_loss': 0.051057327538728714}}
+{'Loss': {'cur_itrs': 420, 'np_loss': 0.05562015622854233}}
+{'cur_epochs': 60, 'cur_itrs': 420, 'interval_loss': 0.06197236217558384}
+{'Loss': {'cur_itrs': 421, 'np_loss': 0.16396453976631165}}
+{'Loss': {'cur_itrs': 422, 'np_loss': 0.053857967257499695}}
+{'Loss': {'cur_itrs': 423, 'np_loss': 0.05873509868979454}}
+{'Loss': {'cur_itrs': 424, 'np_loss': 0.12541240453720093}}
+{'Loss': {'cur_itrs': 425, 'np_loss': 0.13951516151428223}}
+{'Loss': {'cur_itrs': 426, 'np_loss': 0.042861878871917725}}
+{'Loss': {'cur_itrs': 427, 'np_loss': 0.15187975764274597}}
+{'Loss': {'cur_itrs': 428, 'np_loss': 0.052725646644830704}}
+{'Loss': {'cur_itrs': 429, 'np_loss': 0.045167308300733566}}
+{'Loss': {'cur_itrs': 430, 'np_loss': 0.06501435488462448}}
+{'cur_epochs': 62, 'cur_itrs': 430, 'interval_loss': 0.08991341181099415}
+{'Loss': {'cur_itrs': 431, 'np_loss': 0.11539701372385025}}
+{'Loss': {'cur_itrs': 432, 'np_loss': 0.07356301695108414}}
+{'Loss': {'cur_itrs': 433, 'np_loss': 0.07540924847126007}}
+{'Loss': {'cur_itrs': 434, 'np_loss': 0.043954454362392426}}
+{'Loss': {'cur_itrs': 435, 'np_loss': 0.03535253927111626}}
+{'Loss': {'cur_itrs': 436, 'np_loss': 0.0915009155869484}}
+{'Loss': {'cur_itrs': 437, 'np_loss': 0.06149616464972496}}
+{'Loss': {'cur_itrs': 438, 'np_loss': 0.17396338284015656}}
+{'Loss': {'cur_itrs': 439, 'np_loss': 0.0642213523387909}}
+{'Loss': {'cur_itrs': 440, 'np_loss': 0.044814981520175934}}
+{'cur_epochs': 63, 'cur_itrs': 440, 'interval_loss': 0.07796730697155}
+{'Loss': {'cur_itrs': 441, 'np_loss': 0.09315770119428635}}
+{'Loss': {'cur_itrs': 442, 'np_loss': 0.08058713376522064}}
+{'Loss': {'cur_itrs': 443, 'np_loss': 0.05194645747542381}}
+{'Loss': {'cur_itrs': 444, 'np_loss': 0.04033027961850166}}
+{'Loss': {'cur_itrs': 445, 'np_loss': 0.04731651023030281}}
+{'Loss': {'cur_itrs': 446, 'np_loss': 0.04076072573661804}}
+{'Loss': {'cur_itrs': 447, 'np_loss': 0.17387433350086212}}
+{'Loss': {'cur_itrs': 448, 'np_loss': 0.046345874667167664}}
+{'Loss': {'cur_itrs': 449, 'np_loss': 0.07430220395326614}}
+{'Loss': {'cur_itrs': 450, 'np_loss': 0.06688778847455978}}
+{'cur_epochs': 65, 'cur_itrs': 450, 'interval_loss': 0.0715509008616209}
+{'Loss': {'cur_itrs': 451, 'np_loss': 0.05938779562711716}}
+{'Loss': {'cur_itrs': 452, 'np_loss': 0.1140567734837532}}
+{'Loss': {'cur_itrs': 453, 'np_loss': 0.09929244965314865}}
+{'Loss': {'cur_itrs': 454, 'np_loss': 0.05124577879905701}}
+{'Loss': {'cur_itrs': 455, 'np_loss': 0.05134635791182518}}
+{'Loss': {'cur_itrs': 456, 'np_loss': 0.05535932257771492}}
+{'Loss': {'cur_itrs': 457, 'np_loss': 0.08277039229869843}}
+{'Loss': {'cur_itrs': 458, 'np_loss': 0.14965437352657318}}
+{'Loss': {'cur_itrs': 459, 'np_loss': 0.043505147099494934}}
+{'Loss': {'cur_itrs': 460, 'np_loss': 0.04964422062039375}}
+{'cur_epochs': 66, 'cur_itrs': 460, 'interval_loss': 0.07562626115977764}
+{'Loss': {'cur_itrs': 461, 'np_loss': 0.058832623064517975}}
+{'Loss': {'cur_itrs': 462, 'np_loss': 0.08251980692148209}}
+{'Loss': {'cur_itrs': 463, 'np_loss': 0.06936672329902649}}
+{'Loss': {'cur_itrs': 464, 'np_loss': 0.07337822020053864}}
+{'Loss': {'cur_itrs': 465, 'np_loss': 0.2171933799982071}}
+{'Loss': {'cur_itrs': 466, 'np_loss': 0.07863190770149231}}
+{'Loss': {'cur_itrs': 467, 'np_loss': 0.04324040561914444}}
+{'Loss': {'cur_itrs': 468, 'np_loss': 0.051168814301490784}}
+{'Loss': {'cur_itrs': 469, 'np_loss': 0.08530798554420471}}
+{'Loss': {'cur_itrs': 470, 'np_loss': 0.0817166119813919}}
+{'cur_epochs': 68, 'cur_itrs': 470, 'interval_loss': 0.08413564786314964}
+{'Loss': {'cur_itrs': 471, 'np_loss': 0.04472701624035835}}
+{'Loss': {'cur_itrs': 472, 'np_loss': 0.06213850528001785}}
+{'Loss': {'cur_itrs': 473, 'np_loss': 0.06824011355638504}}
+{'Loss': {'cur_itrs': 474, 'np_loss': 0.057723432779312134}}
+{'Loss': {'cur_itrs': 475, 'np_loss': 0.07823413610458374}}
+{'Loss': {'cur_itrs': 476, 'np_loss': 0.052134737372398376}}
+{'Loss': {'cur_itrs': 477, 'np_loss': 0.09011778980493546}}
+{'Loss': {'cur_itrs': 478, 'np_loss': 0.06865764409303665}}
+{'Loss': {'cur_itrs': 479, 'np_loss': 0.07512151449918747}}
+{'Loss': {'cur_itrs': 480, 'np_loss': 0.050687599927186966}}
+{'cur_epochs': 69, 'cur_itrs': 480, 'interval_loss': 0.0647782489657402}
+{'Loss': {'cur_itrs': 481, 'np_loss': 0.1737649291753769}}
+{'Loss': {'cur_itrs': 482, 'np_loss': 0.07422156631946564}}
+{'Loss': {'cur_itrs': 483, 'np_loss': 0.05089984089136124}}
+{'Loss': {'cur_itrs': 484, 'np_loss': 0.0881114974617958}}
+{'Loss': {'cur_itrs': 485, 'np_loss': 0.047642070800065994}}
+{'Loss': {'cur_itrs': 486, 'np_loss': 0.061098650097846985}}
+{'Loss': {'cur_itrs': 487, 'np_loss': 0.06663310527801514}}
+{'Loss': {'cur_itrs': 488, 'np_loss': 0.03726724907755852}}
+{'Loss': {'cur_itrs': 489, 'np_loss': 0.08098887652158737}}
+{'Loss': {'cur_itrs': 490, 'np_loss': 0.09664434939622879}}
+{'cur_epochs': 70, 'cur_itrs': 490, 'interval_loss': 0.07772721350193024}
+{'Loss': {'cur_itrs': 491, 'np_loss': 0.08777763694524765}}
+{'Loss': {'cur_itrs': 492, 'np_loss': 0.11308808624744415}}
+{'Loss': {'cur_itrs': 493, 'np_loss': 0.08216855674982071}}
+{'Loss': {'cur_itrs': 494, 'np_loss': 0.10030432790517807}}
+{'Loss': {'cur_itrs': 495, 'np_loss': 0.04208923503756523}}
+{'Loss': {'cur_itrs': 496, 'np_loss': 0.03787066042423248}}
+{'Loss': {'cur_itrs': 497, 'np_loss': 0.14021478593349457}}
+{'Loss': {'cur_itrs': 498, 'np_loss': 0.08176037669181824}}
+{'Loss': {'cur_itrs': 499, 'np_loss': 0.03737213835120201}}
+{'Loss': {'cur_itrs': 500, 'np_loss': 0.07387591898441315}}
+{'cur_epochs': 72, 'cur_itrs': 500, 'interval_loss': 0.07965217232704162}
+Model saved as checkpoints/latest_deeplabv3plus_resnet50_voc_os16.pth
+validation...
+
+0it [00:00, ?it/s]
+1it [00:00,  3.51it/s]
+2it [00:00,  4.89it/s]
+2it [00:00,  4.11it/s]
+
+Overall Acc: 0.973681
+Mean Acc: 0.665729
+FreqW Acc: 0.952951
+Mean IoU: 0.534216
+
+{'cur_itrs': 500, 'val_score': {'Overall Acc': 0.9736813136509487, 'Mean Acc': 0.6657286844632829, 'FreqW Acc': 0.9529510334572648, 'Mean IoU': 0.5342157775872876, 'Class IoU': {0: 0.9795719291482569, 1: 0.26285818137759737, 2: 0.05143258247718716, 3: 0.843000417346109, 4: nan, 5: nan, 6: nan, 7: nan, 8: nan, 9: nan, 10: nan, 11: nan, 12: nan, 13: nan, 14: nan, 15: nan, 16: nan, 17: nan, 18: nan, 19: nan, 20: nan}}}
